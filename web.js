@@ -2,7 +2,7 @@ var express = require('express');
 var app = app=express();
 var fs = require('fs');
 buf =new Buffer(256);
-buf = fs.readFileSync('/home/ahmed/bitstarter/index.html')
+buf = fs.readFileSync(index.html')
 app.use(express.logger());
 
 app.get('/', function(request, response) {
